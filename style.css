@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    position: fixed !important;
+    width: 100%;
+}
+.main{
+    background-image: url(/Assets/ilya-mashkov-_qxbJUr9RqI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.second{
+    width: 100%;
+    height: 100vh;
+    background-color: #304A2D;
+}
+.centerbar{
+    width: 100%;
+    height: 30vh;
+    background-color: #304A2D;
+}
+.su{
+    background-image: url(/Assets/mae-mu-I7A_pHLcQK8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+.suu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    background-image: url(/Assets/george-pagan-iii-dDmU72yV7g0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.brandname{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100vh;
+}
+.brandname h1{
+    font-size: 10vh;
+    font-weight: bold;
+}
+.center-textarea{
+    gap: 1vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.center-textarea h1{
+    font-size: 10vh;
+    font-weight: bold;
+}
+.center-textarea h3{
+    font-weight: lighter;
+}
+.center-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.center-btn:hover{
+    background-color: #1d251c;
+    color: white;
+}
+.incenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+    color: white;
+    width: 80vh;
+    height: 50vh;
+    background-color: #304A2D;
+    text-align: center;
+}
+.incenter h1{
+    font-size: 6vh;
+}
+.incenter h3{
+    font-weight: lighter;
+}
+.order-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+h6{
+    font-size: 1.6vh;
+}
+.order-btn:hover{
+    background-color: #1d251c;
+    color: white;
+}
